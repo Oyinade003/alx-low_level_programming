@@ -7,19 +7,15 @@
 int main(void)
 {
 int low, newline;
-
-for (low = 97; low <= 122; low++){
-
-if (low ==  113 || low == 101)
-continue;
-}
-
 newline = 10;
+
+for (low = 97; low <= 122; (low != 113; low != 101;) low++)
+{
 
 putchar((char) low);
 
 putchar((char) newline);
+}
 
-
-return 0;
+return (0);
 }
