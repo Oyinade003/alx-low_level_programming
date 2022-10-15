@@ -2,20 +2,20 @@
 
 /**
   * main - The entry point for the program
-  * Return: The exit code
+  * Return: Always 1 (success)
   */
 int main(void)
 {
 int low, newline;
-newline = 10;
 
-for (low = 97; low <= 122; (low != 113; low != 101;) low++)
+for (low = 97; low <= 122; low++)
 {
-
+if (low !=  113 || low != 101)
 putchar((char) low);
-
-putchar((char) newline);
 }
+
+newline = 10;
+putchar((char) newline);
 
 return (0);
 }
