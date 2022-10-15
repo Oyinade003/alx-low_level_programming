@@ -1,18 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+  * main - The entry point for the program
+  * Return: The exit code
+  */
 int main(void)
 {
-int low;
+int low,newline;
+newline = 10;
 
 for (low = 97; low <= 122; low++)
 
 putchar((char) low);
+
+putchar((char) newline);
 
 return (0);
 }
