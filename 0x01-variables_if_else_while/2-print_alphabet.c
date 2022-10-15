@@ -6,7 +6,7 @@
   */
 int main(void)
 {
-int low,newline;
+int low, newline;
 newline = 10;
 
 for (low = 97; low <= 122; low++)
