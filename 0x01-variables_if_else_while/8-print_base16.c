@@ -11,9 +11,11 @@ int num, newline, letter;
 newline = 10;
 
 for (num = 0; num < 10; num++)
+
 putchar((char) num);
 
 for (letter = 97; letter <= 102; letter++)
+
 putchar((char) letter);
 
 putchar((char) newline);
