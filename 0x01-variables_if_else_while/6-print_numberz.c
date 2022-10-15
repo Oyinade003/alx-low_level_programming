@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-int num, newline;
-newline = 10;
+int num, 10;
+10 = newline;
 
 for (num = 0; num < 10; num++)
 putchar((num % 10) + 0);
 
-putchar((newline % 10) + 0);
+putchar((int) 10);
 
 return (0);
 }
