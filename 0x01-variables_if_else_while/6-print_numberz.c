@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Prints all single digit numbers of base 10 starting from 0,
- *        only using putchar and without char variables.
- *
- * Return: Always 0.
+ * main - Entry point
+ * author: sammy
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int num, 10;
-10 = newline;
+int oyin, newline;
+newline = 10;
 
-for (num = 0; num < 10; num++)
-putchar((num % 10) + 0);
-
-putchar((int) 10);
-
+for (oyin = 48; oyin < 58; oyin++)
+putchar((char) oyin);
+putchar((char) newline);
 return (0);
 }
