@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
-  * main - The entry point for the program
-  * Return: Always 1 (success)
-  */
+ * main - Entry point
+ * author: sammy
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int low, newline;
+int oyin;
+int newline;
 
-for (low = 97; low <= 122; low++)
+for (oyin = 97; oyin <= 122; oyin++)
 {
-if (low !=  113 || low != 101)
-putchar((char) low);
+if (oyin != 113 && oyin != 101)
+putchar((char) oyin);
 }
-
 newline = 10;
 putchar((char) newline);
-
-return (1);
+return (0);
 }
