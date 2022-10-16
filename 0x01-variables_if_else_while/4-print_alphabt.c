@@ -17,5 +17,5 @@ putchar((char) low);
 newline = 10;
 putchar((char) newline);
 
-return (0);
+return (1);
 }
