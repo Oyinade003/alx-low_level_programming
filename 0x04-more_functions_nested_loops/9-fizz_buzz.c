@@ -1,31 +1,33 @@
 #include <stdio.h>
 /**
- *Description: Printing from 1 to 100 using specific rules. Fizz for multiples of 3 and Buzz for multiples of 5.
- *Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
+    int m;
 
-for (i = 1; i <= 100; i++)
-{
-if (i % 3 == 0)
-{
-printf("Fizz ");
-}
-else if (i % 5 == 0)
+    for (m = 1 ; m < 100 ; m++)
     {
-printf("Buzz ");
-}
-else if(i % 3 == 0 && i % 5 == 0)
-    {
-printf("FizzBuzz ");
-}
-else
-{
-printf("%d ",i);
-}
-}
-printf("\n");
-return(0);
+        if ((m % 3) == 0 && (m % 5) == 0)
+        {
+            printf("FizzBuzz ");
+        }
+        else if (m % 3 == 0)
+        {
+            printf("Fizz ");
+        }
+        else if (m % 5 == 0)
+        {
+            printf("Buzz ");
+        }
+        else
+        {
+        printf("%d ", m);
+        }
+    }
+    printf("Buzz");
+    printf("\n");
+    return (0);
 }
