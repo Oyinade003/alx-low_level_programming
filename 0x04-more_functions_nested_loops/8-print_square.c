@@ -1,13 +1,14 @@
 #include "main.h"
-
 /**
- * print_line - prints square 
- * @size: parameter character
+ * print_square - prints a square
+ * @size: size of the square
+ *
+ *
+ * Return: a square
  */
-
 void print_square(int size)
 {
-int a, b,  newline;
+int a, b, newline;
 newline = 10;
 
 if (size > 0)
@@ -18,7 +19,6 @@ for (b = 0 ; b < size ; b++)
 {
 _putchar(35);
 }
-_putchar(92);
 _putchar((char) newline);
 }
 }
