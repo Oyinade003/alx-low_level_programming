@@ -1,21 +1,31 @@
 #include "main.h"
 
 /**
- * print_line - prints diagonal line
- * @n: parameter character
+ * print_diagonal - print slash
+ * @n: params
  */
 
 void print_diagonal(int n)
 {
-int i, newline;
-i = 1;
-
-
-    while (i <= n)
-    {
-        _putchar(92);
-        i++;
-    }
+int i = 0;
+int j, newline;
 newline = 10;
+
+if (n > 0)
+{
+for (; i < n; i++)
+{
+for (j = 0; j < i; j++)
+{
+_putchar(32);
+}
+_putchar(92);
+            
 _putchar((char) newline);
+}
+}
+else
+{
+_putchar((char) newline);
+}
 }
