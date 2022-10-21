@@ -1,12 +1,15 @@
-# include "main.h"
+#include "main.h"
 /**
- *Description: A function that multiplies two integers.
- *Main
- *Return value: 0
+ * mul - multiplies two integers
+ * @a: multiplying
+ * @b: multiplier
+ *
+ * Return: the result of mul
  */
 int mul(int a, int b)
 {
-int c;
-c = a*b;
-return (c);
+    int c;
+
+    c = a * b;
+    return (c);
 }
